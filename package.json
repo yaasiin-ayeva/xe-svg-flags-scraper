@@ -1,0 +1,23 @@
+{
+  "name": "xe-svg-flags-scraper",
+  "version": "1.0.0",
+  "description": "Node script to scrap currencies flags from xe.com website",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
